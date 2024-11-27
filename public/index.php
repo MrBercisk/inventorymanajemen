@@ -53,4 +53,6 @@ $paths = new Config\Paths();
 // LOAD THE FRAMEWORK BOOTSTRAP FILE
 require $paths->systemDirectory . '/Boot.php';
 
+header('Content-Type: text/html; charset=UTF-8');
+
 exit(CodeIgniter\Boot::bootWeb($paths));
