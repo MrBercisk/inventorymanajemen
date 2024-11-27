@@ -16,7 +16,7 @@ class App extends BaseConfig
      *
      * E.g., http://example.com/
      */
-    public string $baseURL = 'https://inventorymanajemen-u6as-dys5ze0a8-mrbercisks-projects.vercel.app';
+    public string $baseURL = 'https://inventorymanajemen-production.up.railway.app/';
 
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
