@@ -1,7 +1,7 @@
 {
   "builds": [
     {
-      "src": "public/index.php",
+      "src": "/index.php",
       "use": "@vercel/php"
     }
   ],
